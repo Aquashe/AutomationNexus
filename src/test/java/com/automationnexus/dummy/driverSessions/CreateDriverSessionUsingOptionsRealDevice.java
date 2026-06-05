@@ -1,9 +1,8 @@
-package com.automationnexus.dummy;
+package com.automationnexus.dummy.driverSessions;
 
 import com.automationnexus.config.ConfigReader;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
-import io.appium.java_client.ios.options.XCUITestOptions;
 
 import java.net.MalformedURLException;
 import java.net.URL;

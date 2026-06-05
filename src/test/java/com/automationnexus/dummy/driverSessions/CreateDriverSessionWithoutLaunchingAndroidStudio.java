@@ -1,4 +1,4 @@
-package com.automationnexus.dummy;
+package com.automationnexus.dummy.driverSessions;
 
 import com.automationnexus.config.ConfigReader;
 import io.appium.java_client.AppiumDriver;

@@ -1,6 +1,7 @@
-package com.automationnexus.dummy;
+package com.automationnexus.dummy.gestures.android;
 
 import com.automationnexus.config.ConfigReader;
+import com.automationnexus.dummy.driverSessions.IntailizeDriver;
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
