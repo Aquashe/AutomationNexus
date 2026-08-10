@@ -1,0 +1,30 @@
+{
+  "pageName": "HomePage",
+  "objects": {
+    "ObjectButtonCart": {
+      "android": "//*[@content-desc='test-Cart']//android.widget.ImageView",
+      "ios": "//*[1=2]",
+      "web": ""
+    },
+    "ObjectButtonFilter": {
+      "android": "//*[contains(@content-desc,'test-Modal Selector')]//android.widget.ImageView",
+      "ios": "//*[1=2]",
+      "web": ""
+    },
+    "ObjectButtonSidemenu": {
+      "android": "//*[@content-desc='test-Menu']//android.widget.ImageView",
+      "ios": "//*[1=2]",
+      "web": ""
+    },
+    "ObjectButtonToggle": {
+      "android": "//*[@content-desc='test-Toggle']//android.widget.ImageView",
+      "ios": "//*[1=2]",
+      "web": ""
+    },
+    "ObjectTitleProducts": {
+      "android": "//*[@text='PRODUCTS']",
+      "ios": "//*[1=2]",
+      "web": ""
+    }
+  }
+}

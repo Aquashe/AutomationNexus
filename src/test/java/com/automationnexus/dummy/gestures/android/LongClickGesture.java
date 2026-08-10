@@ -17,7 +17,7 @@ public class LongClickGesture {
                 ConfigReader.get("platform.name"), ConfigReader.get("device.name"),
                 ConfigReader.get("automation.name"), ConfigReader.get("device.udid"),
                 ConfigReader.get("avd.name"), ConfigReader.getAppPath(),
-                ConfigReader.get("appium.server.url"), 120);
+                ConfigReader.get("appium.server.url"), 520);
         System.out.println(driver.getSessionId());
 
         driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));

@@ -1,0 +1,567 @@
+2026-07-18 13:19:16.041 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-18 13:19:16.128 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 13:19:16.128 [main] INFO  com.automationnexus.utils.ObjectScaffold - AutomationNexus — ObjectScaffold START
+2026-07-18 13:19:16.129 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 13:19:16.140 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.home.HomePage
+2026-07-18 13:19:16.143 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.login.LoginPage
+2026-07-18 13:19:16.145 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found 2 page classes total
+2026-07-18 13:19:16.147 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 13:19:16.147 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : HomePage
+2026-07-18 13:19:16.148 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 13:19:16.148 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 13:19:16.149 [main] WARN  com.automationnexus.utils.ObjectScaffold - No getObject...() methods in: HomePage
+2026-07-18 13:19:16.149 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 13:19:16.149 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : LoginPage
+2026-07-18 13:19:16.150 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 13:19:16.150 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 13:19:16.153 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonLogin
+2026-07-18 13:19:16.154 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextErrorMessage
+2026-07-18 13:19:16.154 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldPassword
+2026-07-18 13:19:16.155 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldUsername
+2026-07-18 13:19:16.155 [main] INFO  com.automationnexus.utils.ObjectScaffold - No new objects — file unchanged ✅
+2026-07-18 13:19:16.156 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 13:19:16.156 [main] INFO  com.automationnexus.utils.ObjectScaffold - ObjectScaffold COMPLETED!
+2026-07-18 13:19:16.156 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 13:56:17.111 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-18 13:56:17.174 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 13:56:17.174 [main] INFO  com.automationnexus.utils.ObjectScaffold - AutomationNexus — ObjectScaffold START
+2026-07-18 13:56:17.174 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 13:56:17.181 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.home.HomePage
+2026-07-18 13:56:17.183 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.login.LoginPage
+2026-07-18 13:56:17.184 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found 2 page classes total
+2026-07-18 13:56:17.185 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 13:56:17.186 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : HomePage
+2026-07-18 13:56:17.186 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 13:56:17.186 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 13:56:17.187 [main] WARN  com.automationnexus.utils.ObjectScaffold - No getObject...() methods in: HomePage
+2026-07-18 13:56:17.187 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 13:56:17.188 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : LoginPage
+2026-07-18 13:56:17.188 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 13:56:17.188 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 13:56:17.194 [main] INFO  com.automationnexus.utils.ObjectScaffold - ✅ Created: src\test\resources\objectrepository\mobile\saucelabs\login\LoginPage.json
+2026-07-18 13:56:17.194 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 13:56:17.195 [main] INFO  com.automationnexus.utils.ObjectScaffold - ObjectScaffold COMPLETED!
+2026-07-18 13:56:17.195 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:01:52.431 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-18 14:01:52.476 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:01:52.476 [main] INFO  com.automationnexus.utils.ObjectScaffold - AutomationNexus — ObjectScaffold START
+2026-07-18 14:01:52.477 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:01:52.482 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.home.HomePage
+2026-07-18 14:01:52.483 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.login.LoginPage
+2026-07-18 14:01:52.484 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found 2 page classes total
+2026-07-18 14:01:52.485 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:01:52.486 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : HomePage
+2026-07-18 14:01:52.486 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 14:01:52.486 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:01:52.491 [main] INFO  com.automationnexus.utils.ObjectScaffold - ✅ Created: src\test\resources\objectrepository\mobile\saucelabs\home\HomePage.json
+2026-07-18 14:01:52.491 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:01:52.491 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : LoginPage
+2026-07-18 14:01:52.491 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 14:01:52.492 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:01:52.493 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonLogin
+2026-07-18 14:01:52.493 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextErrorMessage
+2026-07-18 14:01:52.493 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldPassword
+2026-07-18 14:01:52.493 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldUsername
+2026-07-18 14:01:52.493 [main] INFO  com.automationnexus.utils.ObjectScaffold - No new objects — file unchanged ✅
+2026-07-18 14:01:52.493 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:01:52.494 [main] INFO  com.automationnexus.utils.ObjectScaffold - ObjectScaffold COMPLETED!
+2026-07-18 14:01:52.494 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:02:53.436 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-18 14:02:53.516 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:02:53.517 [main] INFO  com.automationnexus.utils.ObjectScaffold - AutomationNexus — ObjectScaffold START
+2026-07-18 14:02:53.518 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:02:53.527 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.home.HomePage
+2026-07-18 14:02:53.529 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.login.LoginPage
+2026-07-18 14:02:53.530 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found 2 page classes total
+2026-07-18 14:02:53.531 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:02:53.532 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : HomePage
+2026-07-18 14:02:53.532 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 14:02:53.533 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:02:53.535 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonCart
+2026-07-18 14:02:53.536 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonFilter
+2026-07-18 14:02:53.536 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonSidemenu
+2026-07-18 14:02:53.537 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonToggle
+2026-07-18 14:02:53.537 [main] INFO  com.automationnexus.utils.ObjectScaffold -   New     — add  : ObjectTitleProducts
+2026-07-18 14:02:53.546 [main] INFO  com.automationnexus.utils.ObjectScaffold - ✅ Updated: src\test\resources\objectrepository\mobile\saucelabs\home\HomePage.json
+2026-07-18 14:02:53.547 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:02:53.547 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : LoginPage
+2026-07-18 14:02:53.548 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 14:02:53.548 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:02:53.549 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonLogin
+2026-07-18 14:02:53.550 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextErrorMessage
+2026-07-18 14:02:53.550 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldPassword
+2026-07-18 14:02:53.551 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldUsername
+2026-07-18 14:02:53.551 [main] INFO  com.automationnexus.utils.ObjectScaffold - No new objects — file unchanged ✅
+2026-07-18 14:02:53.552 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:02:53.552 [main] INFO  com.automationnexus.utils.ObjectScaffold - ObjectScaffold COMPLETED!
+2026-07-18 14:02:53.552 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:03:15.283 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-18 14:03:15.361 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:03:15.361 [main] INFO  com.automationnexus.utils.ObjectScaffold - AutomationNexus — ObjectScaffold START
+2026-07-18 14:03:15.361 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:03:15.369 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.home.HomePage
+2026-07-18 14:03:15.370 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.login.LoginPage
+2026-07-18 14:03:15.371 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found 2 page classes total
+2026-07-18 14:03:15.372 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:03:15.372 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : HomePage
+2026-07-18 14:03:15.373 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 14:03:15.373 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:03:15.375 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonCart
+2026-07-18 14:03:15.375 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonFilter
+2026-07-18 14:03:15.375 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonSidemenu
+2026-07-18 14:03:15.375 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonToggle
+2026-07-18 14:03:15.375 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTitleProducts
+2026-07-18 14:03:15.376 [main] INFO  com.automationnexus.utils.ObjectScaffold - No new objects — file unchanged ✅
+2026-07-18 14:03:15.376 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:03:15.376 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : LoginPage
+2026-07-18 14:03:15.376 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-07-18 14:03:15.376 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-07-18 14:03:15.377 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonLogin
+2026-07-18 14:03:15.377 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextErrorMessage
+2026-07-18 14:03:15.377 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldPassword
+2026-07-18 14:03:15.377 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldUsername
+2026-07-18 14:03:15.378 [main] INFO  com.automationnexus.utils.ObjectScaffold - No new objects — file unchanged ✅
+2026-07-18 14:03:15.378 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:03:15.378 [main] INFO  com.automationnexus.utils.ObjectScaffold - ObjectScaffold COMPLETED!
+2026-07-18 14:03:15.378 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-07-18 14:07:24.785 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-18 14:08:44.746 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-18 14:11:08.576 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-18 14:12:03.781 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 13840fcd-4c3e-44d2-b52c-e1ddb7d3ded1
+2026-07-18 14:12:03.886 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-18 14:12:03.894 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-18 14:12:58.326 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-18 14:13:17.124 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 8ba16499-447e-4865-9790-dc22270085f4
+2026-07-18 14:13:17.213 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-18 14:13:17.217 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-18 15:20:27.293 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-18 15:21:47.593 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID f376b34c-b5ce-4e04-a12e-9f868f5dcde5
+2026-07-18 15:21:47.730 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-18 15:21:47.740 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-18 15:24:42.343 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-18 15:25:11.044 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 6f7077dd-3622-4b89-86c6-4296e69c882b
+2026-07-18 15:25:21.114 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-18 15:25:21.118 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-18 15:25:22.741 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-18 15:25:22.743 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-18 15:25:24.368 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-18 15:25:24.370 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-18 15:25:24.971 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (6f7077dd-3622-4b89-86c6-4296e69c882b)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-18 15:25:25.149 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTitleProducts [com.automationnexus.pages.mobile.saucelabs.home.HomePage / android]
+2026-07-18 15:25:25.154 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@text='PRODUCTS']
+2026-07-18 15:28:57.762 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-18 15:29:13.879 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 20400a03-5d5a-4664-a215-f60e73aa9049
+2026-07-18 15:29:13.962 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-18 15:29:13.968 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:07:18.312 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-20 21:09:31.523 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-20 21:10:42.805 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 815e27c2-5594-43b3-9ef9-7a6f41527d71
+2026-07-20 21:10:42.969 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:10:42.979 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:10:50.437 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:10:50.438 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-20 21:10:51.685 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:10:51.692 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-20 21:10:52.234 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (815e27c2-5594-43b3-9ef9-7a6f41527d71)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-20 21:10:52.591 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:10:52.594 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Error message']/*
+2026-07-20 21:16:47.421 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-20 21:17:09.382 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 083225e1-2c07-438e-8610-5a948ca760a4
+2026-07-20 21:17:09.469 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:17:09.475 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:29:57.478 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-20 21:30:27.685 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 31678355-ab8f-4935-a087-fed1d0cffc23
+2026-07-20 21:30:27.772 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:30:27.777 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:30:31.202 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:30:31.204 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-20 21:30:32.257 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:30:32.297 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-20 21:30:32.895 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (31678355-ab8f-4935-a087-fed1d0cffc23)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-20 21:30:33.113 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:30:33.114 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Error message']/*
+2026-07-20 21:31:02.370 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-20 21:31:13.718 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID cb63ca0d-1a12-4988-a5ab-5f66d817faa7
+2026-07-20 21:31:13.790 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:31:13.795 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:31:17.202 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:31:17.203 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-20 21:31:18.760 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:31:18.761 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-20 21:31:19.350 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (cb63ca0d-1a12-4988-a5ab-5f66d817faa7)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-20 21:31:19.511 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTitleProducts [com.automationnexus.pages.mobile.saucelabs.home.HomePage / android]
+2026-07-20 21:31:19.515 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@text='PRODUCTS']
+2026-07-20 21:31:21.338 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTitleProducts [com.automationnexus.pages.mobile.saucelabs.home.HomePage / android]
+2026-07-20 21:31:21.340 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@text='PRODUCTS']
+2026-07-20 21:32:21.509 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-20 21:32:34.185 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 68870487-98bd-4412-8cd1-d2b966338277
+2026-07-20 21:32:34.259 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:34.263 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:32:37.390 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:37.392 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-20 21:32:38.555 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:38.562 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-20 21:32:39.153 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (68870487-98bd-4412-8cd1-d2b966338277)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-20 21:32:39.256 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:39.258 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Error message']/*
+2026-07-20 21:32:40.543 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:40.545 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:32:41.805 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:41.806 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-20 21:32:43.534 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:43.536 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-20 21:32:44.276 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (68870487-98bd-4412-8cd1-d2b966338277)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-20 21:32:44.506 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:44.509 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Error message']/*
+2026-07-20 21:32:45.391 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:45.393 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:32:46.962 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:46.963 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-20 21:32:48.609 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:48.612 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-20 21:32:49.181 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (68870487-98bd-4412-8cd1-d2b966338277)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-20 21:32:49.976 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:50.009 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Error message']/*
+2026-07-20 21:32:50.569 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:50.570 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:32:51.773 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:51.776 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-20 21:32:53.393 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:53.394 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-20 21:32:54.038 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (68870487-98bd-4412-8cd1-d2b966338277)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-20 21:32:54.126 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:54.127 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Error message']/*
+2026-07-20 21:32:54.954 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:54.960 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-20 21:32:56.511 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:56.512 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-20 21:32:58.121 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-20 21:32:58.121 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-20 21:32:58.643 [main] INFO  com.automationnexus.base.BasePage - Click element: [[AndroidDriver:  on ANDROID (68870487-98bd-4412-8cd1-d2b966338277)] -> xpath: //*[@content-desc='test-LOGIN']]
+2026-07-20 21:32:58.727 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTitleProducts [com.automationnexus.pages.mobile.saucelabs.home.HomePage / android]
+2026-07-20 21:32:58.728 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@text='PRODUCTS']
+2026-07-20 21:33:01.200 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTitleProducts [com.automationnexus.pages.mobile.saucelabs.home.HomePage / android]
+2026-07-20 21:33:01.201 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@text='PRODUCTS']
+2026-07-25 15:37:58.752 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 15:40:58.859 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID cbbd60a9-a32a-4fd9-919b-9ba39984907d
+2026-07-25 15:40:59.104 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 15:40:59.119 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']
+2026-07-25 15:41:05.519 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 15:41:05.522 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-25 15:41:07.736 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 15:41:07.753 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-25 15:41:09.152 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 15:41:09.154 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Error message']/*
+2026-07-25 15:49:34.591 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 15:49:53.450 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID ddf0cd7a-0557-4b4a-956c-bbcdb4bff553
+2026-07-25 15:49:53.549 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 15:49:53.555 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username']--
+2026-07-25 15:50:36.764 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 15:50:50.460 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 7f16e13a-c7cb-47cf-9b76-e0d1ff510df4
+2026-07-25 15:50:50.592 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 15:50:50.597 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username   ']
+2026-07-25 15:52:47.965 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 15:52:58.747 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 97b6a534-8356-4a20-8c77-36caf49a2a64
+2026-07-25 15:52:58.883 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 15:52:58.887 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username   ']
+2026-07-25 17:27:48.716 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 17:30:31.441 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 17:31:13.087 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID e0a07a5a-d45d-46ed-8615-bd579a9efb6c
+2026-07-25 17:31:13.272 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 17:31:13.284 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Username   ']
+2026-07-25 17:31:43.652 [main] WARN  com.automationnexus.base.BasePage - [WARNING] Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+2026-07-25 17:31:43.653 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 17:31:43.654 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-Password']
+2026-07-25 17:31:44.927 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 17:31:44.928 [main] INFO  com.automationnexus.base.BasePage - Resolved XPath: //*[@content-desc='test-LOGIN']
+2026-07-25 17:36:28.346 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 17:36:43.833 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID b17ce2d1-9b14-4298-a8f6-96cc6c422599
+2026-07-25 17:36:43.989 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 17:37:14.351 [main] ERROR com.automationnexus.base.BasePage - [ERROR - STOPPING] ❌ Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+2026-07-25 18:48:58.311 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 18:49:38.997 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 9698611a-ea42-4738-b53b-41d6e5491cca
+2026-07-25 18:49:39.101 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 18:49:49.474 [main] ERROR com.automationnexus.base.BasePage - [ERROR - STOPPING] ❌ Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+2026-07-25 18:50:53.315 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 18:51:05.027 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 79e891f5-dc8e-4c36-af78-82c291070fa3
+2026-07-25 18:51:05.128 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 18:51:15.622 [main] WARN  com.automationnexus.base.BasePage - [WARNING] Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+2026-07-25 18:51:15.623 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 18:51:16.781 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:01:39.256 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 19:02:03.760 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID b9d0515f-88e3-45ac-a970-64dfbfd60f4f
+2026-07-25 19:02:03.872 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:02:14.182 [main] WARN  com.automationnexus.base.BasePage - [WARNING] Could not set text for element: By.xpath: //*[@content-desc='test-Username   '] | Reason: Expected condition failed: waiting for visibility of element found by By.xpath: //*[@content-desc='test-Username   '], but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:androidDeviceReadyTimeout: 120, appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.MainA..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:avd: Pixel_6a, appium:avdArgs: -gpu swiftshader_indirect, appium:avdLaunchTimeout: 280000, appium:avdReadyTimeout: 220000, appium:databaseEnabled: false, appium:desired: {androidDeviceReadyTimeout: 120, appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, appWaitActivity: com.swaglabsmobileapp.MainA..., autoGrantPermissions: true, automationName: UiAutomator2, avd: Pixel_6a, avdArgs: -gpu swiftshader_indirect, avdLaunchTimeout: 280000, avdReadyTimeout: 220000, deviceName: pixel_6a, fullReset: false, newCommandTimeout: 60, platformName: ANDROID, udid: emulator-5554, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b9d0515f-88e3-45ac-a970-64dfbfd60f4f
+2026-07-25 19:02:14.183 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:02:15.431 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:03:40.770 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 19:04:00.579 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 023aedc3-a789-44db-bfcb-744f3fefad40
+2026-07-25 19:04:00.666 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:04:11.034 [main] WARN  com.automationnexus.base.BasePage - [WARNING] Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+| Reason: Expected condition failed: waiting for visibility of element found by By.xpath: //*[@content-desc='test-Username   '], but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:androidDeviceReadyTimeout: 120, appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.MainA..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:avd: Pixel_6a, appium:avdArgs: -gpu swiftshader_indirect, appium:avdLaunchTimeout: 280000, appium:avdReadyTimeout: 220000, appium:databaseEnabled: false, appium:desired: {androidDeviceReadyTimeout: 120, appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, appWaitActivity: com.swaglabsmobileapp.MainA..., autoGrantPermissions: true, automationName: UiAutomator2, avd: Pixel_6a, avdArgs: -gpu swiftshader_indirect, avdLaunchTimeout: 280000, avdReadyTimeout: 220000, deviceName: pixel_6a, fullReset: false, newCommandTimeout: 60, platformName: ANDROID, udid: emulator-5554, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 023aedc3-a789-44db-bfcb-744f3fefad40
+
+
+
+2026-07-25 19:04:11.036 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:04:12.198 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:05:12.533 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2026-07-25 19:05:25.965 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 12412742-052d-42bd-9128-8aa8e1c0d49d
+2026-07-25 19:05:26.044 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:05:36.122 [main] ERROR com.automationnexus.base.BasePage - [ERROR] Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+
+| Reason: Expected condition failed: waiting for visibility of element found by By.xpath: //*[@content-desc='test-Username   '], but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:androidDeviceReadyTimeout: 120, appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.MainA..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:avd: Pixel_6a, appium:avdArgs: -gpu swiftshader_indirect, appium:avdLaunchTimeout: 280000, appium:avdReadyTimeout: 220000, appium:databaseEnabled: false, appium:desired: {androidDeviceReadyTimeout: 120, appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, appWaitActivity: com.swaglabsmobileapp.MainA..., autoGrantPermissions: true, automationName: UiAutomator2, avd: Pixel_6a, avdArgs: -gpu swiftshader_indirect, avdLaunchTimeout: 280000, avdReadyTimeout: 220000, deviceName: pixel_6a, fullReset: false, newCommandTimeout: 60, platformName: ANDROID, udid: emulator-5554, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 12412742-052d-42bd-9128-8aa8e1c0d49d
+
+
+
+2026-07-25 19:05:36.122 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:05:37.331 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:05:38.162 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:05:48.488 [main] ERROR com.automationnexus.base.BasePage - [ERROR] Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+
+| Reason: Expected condition failed: waiting for visibility of element found by By.xpath: //*[@content-desc='test-Username   '], but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:androidDeviceReadyTimeout: 120, appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.MainA..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:avd: Pixel_6a, appium:avdArgs: -gpu swiftshader_indirect, appium:avdLaunchTimeout: 280000, appium:avdReadyTimeout: 220000, appium:databaseEnabled: false, appium:desired: {androidDeviceReadyTimeout: 120, appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, appWaitActivity: com.swaglabsmobileapp.MainA..., autoGrantPermissions: true, automationName: UiAutomator2, avd: Pixel_6a, avdArgs: -gpu swiftshader_indirect, avdLaunchTimeout: 280000, avdReadyTimeout: 220000, deviceName: pixel_6a, fullReset: false, newCommandTimeout: 60, platformName: ANDROID, udid: emulator-5554, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 12412742-052d-42bd-9128-8aa8e1c0d49d
+
+
+
+2026-07-25 19:05:48.489 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:05:49.632 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:05:50.368 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:05:51.102 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:01.639 [main] ERROR com.automationnexus.base.BasePage - [ERROR] Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+
+| Reason: Expected condition failed: waiting for visibility of element found by By.xpath: //*[@content-desc='test-Username   '], but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:androidDeviceReadyTimeout: 120, appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.MainA..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:avd: Pixel_6a, appium:avdArgs: -gpu swiftshader_indirect, appium:avdLaunchTimeout: 280000, appium:avdReadyTimeout: 220000, appium:databaseEnabled: false, appium:desired: {androidDeviceReadyTimeout: 120, appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, appWaitActivity: com.swaglabsmobileapp.MainA..., autoGrantPermissions: true, automationName: UiAutomator2, avd: Pixel_6a, avdArgs: -gpu swiftshader_indirect, avdLaunchTimeout: 280000, avdReadyTimeout: 220000, deviceName: pixel_6a, fullReset: false, newCommandTimeout: 60, platformName: ANDROID, udid: emulator-5554, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 12412742-052d-42bd-9128-8aa8e1c0d49d
+
+
+
+2026-07-25 19:06:01.639 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:02.774 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:03.406 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:04.588 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:14.901 [main] ERROR com.automationnexus.base.BasePage - [ERROR] Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+
+| Reason: Expected condition failed: waiting for visibility of element found by By.xpath: //*[@content-desc='test-Username   '], but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:androidDeviceReadyTimeout: 120, appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.MainA..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:avd: Pixel_6a, appium:avdArgs: -gpu swiftshader_indirect, appium:avdLaunchTimeout: 280000, appium:avdReadyTimeout: 220000, appium:databaseEnabled: false, appium:desired: {androidDeviceReadyTimeout: 120, appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, appWaitActivity: com.swaglabsmobileapp.MainA..., autoGrantPermissions: true, automationName: UiAutomator2, avd: Pixel_6a, avdArgs: -gpu swiftshader_indirect, avdLaunchTimeout: 280000, avdReadyTimeout: 220000, deviceName: pixel_6a, fullReset: false, newCommandTimeout: 60, platformName: ANDROID, udid: emulator-5554, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 12412742-052d-42bd-9128-8aa8e1c0d49d
+
+
+
+2026-07-25 19:06:14.902 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:16.025 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:16.709 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:17.197 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:27.364 [main] ERROR com.automationnexus.base.BasePage - [ERROR] Could not set text for element: By.xpath: //*[@content-desc='test-Username   ']
+
+| Reason: Expected condition failed: waiting for visibility of element found by By.xpath: //*[@content-desc='test-Username   '], but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:androidDeviceReadyTimeout: 120, appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.MainA..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:avd: Pixel_6a, appium:avdArgs: -gpu swiftshader_indirect, appium:avdLaunchTimeout: 280000, appium:avdReadyTimeout: 220000, appium:databaseEnabled: false, appium:desired: {androidDeviceReadyTimeout: 120, appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, appWaitActivity: com.swaglabsmobileapp.MainA..., autoGrantPermissions: true, automationName: UiAutomator2, avd: Pixel_6a, avdArgs: -gpu swiftshader_indirect, avdLaunchTimeout: 280000, avdReadyTimeout: 220000, deviceName: pixel_6a, fullReset: false, newCommandTimeout: 60, platformName: ANDROID, udid: emulator-5554, uiautomator2ServerInstallTimeout: 60000, uiautomator2ServerLaunchTimeout: 60000}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, appium:uiautomator2ServerLaunchTimeout: 60000, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 12412742-052d-42bd-9128-8aa8e1c0d49d
+
+
+
+2026-07-25 19:06:27.365 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:28.493 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:06:29.243 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTitleProducts [com.automationnexus.pages.mobile.saucelabs.home.HomePage / android]
+2026-07-25 19:08:56.308 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-25 19:09:09.196 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID ba431040-0f15-42f6-83d1-69586c5e245d
+2026-07-25 19:09:09.260 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:11.605 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:13.213 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:13.886 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:15.315 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:16.650 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:18.282 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:19.159 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:20.407 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:21.643 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:23.421 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:24.134 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:25.346 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:26.558 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:28.183 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:28.913 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:29.953 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:31.504 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:33.060 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-25 19:09:33.763 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTitleProducts [com.automationnexus.pages.mobile.saucelabs.home.HomePage / android]
+2026-07-25 19:09:35.339 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTitleProducts [com.automationnexus.pages.mobile.saucelabs.home.HomePage / android]
+2026-07-27 23:36:21.136 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-27 23:43:01.797 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-27 23:43:30.853 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID d70714e8-325b-434c-a485-0752f53765f8
+2026-07-27 23:43:30.986 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-27 23:43:36.789 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-27 23:43:38.360 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-27 23:43:39.434 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-27 23:44:28.129 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-27 23:44:41.260 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID c837f3ff-e617-4525-a9ae-34eba4aeafeb
+2026-07-27 23:44:41.374 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-07-27 23:51:30.161 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-07-27 23:51:44.069 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 3afd8752-f854-4d4b-b606-748490c534d1
+2026-07-27 23:51:44.143 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:13:28.879 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-08-01 23:17:17.436 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-08-01 23:18:37.118 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 0fa70511-6486-4b90-9f97-b66fef06b46a
+2026-08-01 23:18:37.249 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:19:33.184 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-08-01 23:20:17.592 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 8d458424-ad82-40df-bace-fcf6beb1c193
+2026-08-01 23:20:17.874 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:21:38.339 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-08-01 23:22:01.525 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 05cbb306-9584-403a-a81e-906af55f0fa2
+2026-08-01 23:22:01.792 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:22:06.212 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:22:07.897 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:22:08.783 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:35:46.775 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-08-01 23:36:09.514 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 8a2cfeb0-87bb-4e94-9474-2ae0cab64112
+2026-08-01 23:36:09.602 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:36:15.469 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldPassword [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:36:17.199 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectButtonLogin [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:36:18.015 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextErrorMessage [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:36:39.075 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Wonder\OneDrive\Desktop\AutomationNexus\src\test\resources\testsuites\mobile\saucelabs\smoke-suite.xml
+
+2026-08-01 23:36:52.675 [main] INFO  com.automationnexus.base.BaseMobileTest - Driver initialized successfully with Session ID 6def33bb-8239-4f34-89aa-4531db0a2b1d
+2026-08-01 23:36:52.755 [main] INFO  com.automationnexus.base.BasePage - Finding object: ObjectTextFieldUsername [com.automationnexus.pages.mobile.saucelabs.login.LoginPage / android]
+2026-08-01 23:51:39.916 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-08-01 23:51:39.925 [main] INFO  com.automationnexus.utils.ObjectScaffold - AutomationNexus — ObjectScaffold START
+2026-08-01 23:51:39.926 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-08-01 23:51:39.939 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.home.HomePage
+2026-08-01 23:51:39.942 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found: com.automationnexus.pages.mobile.saucelabs.login.LoginPage
+2026-08-01 23:51:39.944 [main] INFO  com.automationnexus.utils.ObjectScaffold - Found 2 page classes total
+2026-08-01 23:51:39.946 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-08-01 23:51:39.947 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : HomePage
+2026-08-01 23:51:39.947 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-08-01 23:51:39.948 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-08-01 23:51:39.952 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonCart
+2026-08-01 23:51:39.953 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonFilter
+2026-08-01 23:51:39.954 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonSidemenu
+2026-08-01 23:51:39.954 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonToggle
+2026-08-01 23:51:39.955 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTitleProducts
+2026-08-01 23:51:39.956 [main] INFO  com.automationnexus.utils.ObjectScaffold - No new objects — file unchanged ✅
+2026-08-01 23:51:39.956 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-08-01 23:51:39.956 [main] INFO  com.automationnexus.utils.ObjectScaffold - Processing : LoginPage
+2026-08-01 23:51:39.956 [main] INFO  com.automationnexus.utils.ObjectScaffold - Platform   : MOBILE
+2026-08-01 23:51:39.958 [main] INFO  com.automationnexus.utils.ObjectScaffold - ----------------------------------------
+2026-08-01 23:51:39.959 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectButtonLogin
+2026-08-01 23:51:39.960 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextErrorMessage
+2026-08-01 23:51:39.961 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldPassword
+2026-08-01 23:51:39.962 [main] INFO  com.automationnexus.utils.ObjectScaffold -   Exists  — skip : ObjectTextFieldUsername
+2026-08-01 23:51:39.962 [main] INFO  com.automationnexus.utils.ObjectScaffold - No new objects — file unchanged ✅
+2026-08-01 23:51:39.963 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================
+2026-08-01 23:51:39.963 [main] INFO  com.automationnexus.utils.ObjectScaffold - ObjectScaffold COMPLETED!
+2026-08-01 23:51:39.964 [main] INFO  com.automationnexus.utils.ObjectScaffold - ========================================

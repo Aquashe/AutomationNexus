@@ -1,0 +1,25 @@
+{
+  "pageName": "LoginPage",
+  "objects": {
+    "ObjectButtonLogin": {
+      "android": "//*[@content-desc='test-LOGIN']",
+      "ios": "//*[1=2]",
+      "web": ""
+    },
+    "ObjectTextErrorMessage": {
+      "android": "//*[@content-desc='test-Error message']/*",
+      "ios": "//*[1=2]",
+      "web": ""
+    },
+    "ObjectTextFieldPassword": {
+      "android": "//*[@content-desc='test-Password']",
+      "ios": "//*[1=2]",
+      "web": ""
+    },
+    "ObjectTextFieldUsername": {
+      "android": "//*[@content-desc='test-Username']",
+      "ios": "//*[1=2]",
+      "web": ""
+    }
+  }
+}
