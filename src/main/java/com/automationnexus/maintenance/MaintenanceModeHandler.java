@@ -1,22 +1,14 @@
 package com.automationnexus.maintenance;
 
-import com.automationnexus.drivers.MobileDriverManager;
-import com.automationnexus.utils.AnsiColors;
-import com.automationnexus.utils.ConsoleUtils;
-import com.automationnexus.utils.ObjectRepository;
-import com.automationnexus.utils.ScannerSingleton;
-import com.automationnexus.utils.SoundUtils;
-import io.appium.java_client.AppiumDriver;
+import com.automationnexus.drivers.DriverManager;
+import com.automationnexus.utils.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.awt.Desktop;
+import java.awt.*;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -80,7 +72,7 @@ public class MaintenanceModeHandler {
     handle(Class<?> pageClass,
                                     String objectName,
                                     By locator,
-                                    AppiumDriver driver,
+                                    WebDriver driver,
                                     WebDriverWait wait,
                                     RuntimeException originalFailure) {
 
@@ -141,7 +133,7 @@ public class MaintenanceModeHandler {
                     continue;
                 }
                 By newLocator = By.xpath(choice.substring(3).trim());
-                String platform = MobileDriverManager.getExecutionOS();
+                String platform = DriverManager.getExecutionOS();
                 ObjectRepository.updateXPath(pageClass, objectName, platform, newLocator.toString().replace("By.xpath: ", ""));
                 ConsoleUtils.printLine("Locator updated. Retrying...",
                         AnsiColors.SUCCESS);
@@ -205,7 +197,7 @@ public class MaintenanceModeHandler {
         }
     }
 
-    private static void dumpPageSource(AppiumDriver driver) {
+    private static void dumpPageSource(WebDriver driver) {
         try {
             String source = driver.getPageSource();
             File file = new File("PageSource_" + System.currentTimeMillis() + ".xml");
@@ -220,7 +212,7 @@ public class MaintenanceModeHandler {
         }
     }
 
-    private static void takeAndOpenScreenshot(AppiumDriver driver) {
+    private static void takeAndOpenScreenshot(WebDriver driver) {
         try {
             byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             File file = new File("Screenshot_" + System.currentTimeMillis() + ".png");
@@ -258,7 +250,7 @@ public class MaintenanceModeHandler {
             return;
         }
         try {
-            String platform = MobileDriverManager.getExecutionOS();
+            String platform = DriverManager.getExecutionOS();
             String xpath = ObjectRepository.getXPath(pageClass, objectName, platform);
             ConsoleUtils.printLine("Current XPath [" + platform + "]: " + xpath,
                     AnsiColors.INFO);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Validations Suite" verbose="1">
+
+    <test name="Login">
+        <classes>
+            <class name="com.automationnexus.web.ecommerce.login.LoginTest">
+            <methods>
+                <include name="loginWithIncorrectEmailOrPassword"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

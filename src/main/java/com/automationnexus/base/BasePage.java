@@ -3,7 +3,7 @@ package com.automationnexus.base;
 import com.automationnexus.config.ConfigReader;
 import com.automationnexus.constants.ConfigKeys;
 import com.automationnexus.constants.GlobalVariable;
-import com.automationnexus.drivers.MobileDriverManager;
+import com.automationnexus.drivers.DriverManager;
 import com.automationnexus.enums.FailureHandling;
 import com.automationnexus.maintenance.MaintenanceModeHandler;
 import com.automationnexus.maintenance.ObjectResolutionHandler;
@@ -12,10 +12,7 @@ import com.automationnexus.utils.ObjectScaffold;
 import io.appium.java_client.AppiumDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -32,11 +29,16 @@ import java.util.Map;
 public abstract class BasePage {
     protected static final Logger log = LogManager.getLogger(BasePage.class);
     protected static Mobile mobile;
-    protected AppiumDriver driver;
+    protected static WebUI webUI;
+    protected WebDriver driver;
 
-    public BasePage(AppiumDriver driver) {
-        this.driver = driver;
-        mobile = new Mobile(driver);
+    public BasePage(WebDriver webDriver) {
+        this.driver = webDriver;
+        if (driver instanceof AppiumDriver) {
+            this.mobile = new Mobile((AppiumDriver) driver);
+        } else {
+            this.webUI = new WebUI(driver);
+        }
     }
 
 
@@ -350,11 +352,7 @@ public abstract class BasePage {
     private By resolveObject(Class<?> pageClass,
                              String objectName,
                              Map<String, Object> variables) {
-        String platform = MobileDriverManager.getExecutionOS();
-
-        log.info("Finding object: " + objectName
-                + " [" + pageClass.getName() + " / " + platform + "]");
-
+        String platform = DriverManager.getExecutionOS();
         String xpath;
         try {
             xpath = ObjectRepository.getXPath(pageClass, objectName, platform);
@@ -371,7 +369,7 @@ public abstract class BasePage {
      */
     private By resolveObjectByPath(String fullPath,
                                    Map<String, Object> variables) {
-        String platform = MobileDriverManager.getExecutionOS();
+        String platform = DriverManager.getExecutionOS();
 
         log.info("Finding object by path: " + fullPath + " [" + platform + "]");
 

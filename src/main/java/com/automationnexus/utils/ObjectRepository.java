@@ -58,7 +58,6 @@ public class ObjectRepository {
 
         String filePath = OBJECT_REPO_BASE + classPath + "/"
                 + pageClass.getSimpleName() + ".json";
-
         return readAndExtract(new File(filePath), objectName, platform);
     }
 

@@ -1,0 +1,25 @@
+{
+  "pageName": "LoginPage",
+  "objects": {
+    "ObjectButtonLogin": {
+      "android": "",
+      "ios": "",
+      "web": "//*[@id='login']"
+    },
+    "ObjectTextErrorMessage": {
+      "android": "",
+      "ios": "",
+      "web": "//div[@id='toast-container']//div[@role='alert']"
+    },
+    "ObjectTextFieldPassword": {
+      "android": "",
+      "ios": "",
+      "web": "//*[@id='userPassword']"
+    },
+    "ObjectTextFieldUsername": {
+      "android": "",
+      "ios": "",
+      "web": "//*[@id='userEmail']"
+    }
+  }
+}

@@ -7,6 +7,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
+import org.openqa.selenium.WebDriver;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -161,18 +162,20 @@ public class MobileDriverManager {
      * @throws IllegalStateException if the driver hasn't been
      *         initialized yet, or is an unrecognized type
      */
-    public static String getExecutionOS() {
-        if (driver == null) {
-            throw new IllegalStateException(
-                    "Driver not initialized yet — cannot detect platform. "
-                            + "Call getDriver() first.");
-        }
-        if (driver instanceof AndroidDriver)
-            return "android";
-        else if (driver instanceof IOSDriver)
-            return "ios";
-        throw new IllegalStateException(
-                "Unknown driver type: " + driver.getClass().getName());
-    }
+//    public static String getExecutionOS() {
+//        if (driver == null) {
+//            throw new IllegalStateException(
+//                    "Driver not initialized yet — cannot detect platform. "
+//                            + "Call getDriver() first.");
+//        }
+//        if (driver instanceof AndroidDriver)
+//            return "android";
+//        else if (driver instanceof IOSDriver)
+//            return "ios";
+//        else if (driver instanceof WebDriver)
+//            return "web";
+//        throw new IllegalStateException(
+//                "Unknown driver type: " + driver.getClass().getName());
+//    }
 
 }
