@@ -36,9 +36,11 @@ public class LoginPage extends BasePage {
     private By getObjectTextErrorMessage() {
         return findTestObject();
     }
-//    @FindBy(css = "div[class*='flyInOut']")
-//    WebElement textIncorrectEmailOrPassword;
-//    .ng-tns-c4-13.ng-star-inserted.ng-trigger.ng-trigger-flyInOut.ngx-toastr.toast-error
+    /*
+    @FindBy(css = "div[class*='flyInOut']")
+    WebElement textIncorrectEmailOrPassword;
+    .ng-tns-c4-13.ng-star-inserted.ng-trigger.ng-trigger-flyInOut.ngx-toastr.toast-error
+    */
 
     // ─── Page Methods ─────────────────────────────────────────
     public void enterUsername(String username) {

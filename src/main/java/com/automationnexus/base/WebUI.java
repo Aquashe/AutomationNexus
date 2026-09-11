@@ -19,6 +19,38 @@ public class WebUI {
         this.driver = driver;
     }
 
+    public boolean waitForElementToBeDisplayed(By object, int timeoutInSeconds){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(object));
+        return element.isDisplayed();
+    }
+
+    public boolean waitForElementToBeDisplayed(By object, int timeoutInSeconds, FailureHandling failureHandling){
+        try {
+            return waitForElementToBeDisplayed(object, timeoutInSeconds);
+        } catch (Exception e) {
+            BasePage.handleFailure(failureHandling,
+                    "Could not find element: " + object.toString(), e);
+            return false;
+        }
+    }
+
+    public boolean waitForElementToBeDisplayed(WebElement object, int timeoutInSeconds){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        WebElement element = wait.until(ExpectedConditions.visibilityOf(object));
+        return element.isDisplayed();
+    }
+
+    public boolean waitForElementToBeDisplayed(WebElement object, int timeoutInSeconds, FailureHandling failureHandling){
+        try {
+            return waitForElementToBeDisplayed(object, timeoutInSeconds);
+        } catch (Exception e) {
+            BasePage.handleFailure(failureHandling,
+                    "Could not find element: " + object.toString(), e);
+            return false;
+        }
+    }
+
     public void click(By object, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(object));
