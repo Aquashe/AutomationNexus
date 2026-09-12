@@ -102,7 +102,8 @@ public class MaintenanceModeHandler {
                 ConsoleUtils.printLine(
                         "Ignoring — original failure will propagate from here.",
                         AnsiColors.WARNING);
-                throw originalFailure;
+//                throw originalFailure;
+                return locator;
             }
 
             if (choice.equalsIgnoreCase("X")) {

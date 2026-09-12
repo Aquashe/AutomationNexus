@@ -1,0 +1,30 @@
+{
+  "pageName": "ProductCatologuePage",
+  "objects": {
+    "ObjectButtonCart": {
+      "android": "",
+      "ios": "",
+      "web": "//button[contains(text(),'Cart' ) and @class = 'btn btn-custom']"
+    },
+    "ObjectButtonOrders": {
+      "android": "",
+      "ios": "",
+      "web": "//button[contains( translate( normalize-space(.) ,  'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz' ), 'orders'  )]"
+    },
+    "ObjectContainerProducts": {
+      "android": "",
+      "ios": "",
+      "web": "//*[contains(@class,'col-lg-4') and contains(@class,'col-md-6') and contains(@class,'col-sm-10')]"
+    },
+    "ObjectIconLoading": {
+      "android": "",
+      "ios": "",
+      "web": "//*[@class='ng-animating']"
+    },
+    "ObjectTextPopup": {
+      "android": "",
+      "ios": "",
+      "web": "//*[@id='toast-container']"
+    }
+  }
+}

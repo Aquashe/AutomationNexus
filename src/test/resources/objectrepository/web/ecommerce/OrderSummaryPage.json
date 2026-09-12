@@ -1,0 +1,25 @@
+{
+  "pageName": "OrderSummaryPage",
+  "objects": {
+    "ObjectButtonViewOrders": {
+      "android": "",
+      "ios": "",
+      "web": "(//*[normalize-space()='View Orders'])[last()]"
+    },
+    "ObjectTextOrderIdValue": {
+      "android": "",
+      "ios": "",
+      "web": "//*[normalize-space()='Order Id']/following-sibling::div"
+    },
+    "ObjectTextOrderSummary": {
+      "android": "",
+      "ios": "",
+      "web": "//*[normalize-space()='order summary']"
+    },
+    "ObjectTitleThankYouForShoppingWithUs": {
+      "android": "",
+      "ios": "",
+      "web": "//p[normalize-space()='Thank you for Shopping With Us']"
+    }
+  }
+}

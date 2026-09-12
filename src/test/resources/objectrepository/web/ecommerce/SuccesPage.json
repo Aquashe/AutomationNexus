@@ -1,0 +1,21 @@
+{
+  "pageName": "SuccesPage",
+  "objects": {
+    "ObjectTitleSuccess": {
+      "android": "",
+      "ios": "",
+      "web": "//*[@class='hero-primary']"
+    }
+,
+    "ObjectButtonLinkOrdersHistoryPage": {
+      "android": "",
+      "ios": "",
+      "web": "//label[text()=' Orders History Page ']"
+    },
+    "ObjectTextOrderId": {
+      "android": "",
+      "ios": "",
+      "web": "(//label[text()=' Orders History Page ']/following::label)[1]"
+    }
+  }
+}

@@ -18,7 +18,6 @@ import java.util.stream.Collectors;
 public class MyCartPage extends BasePage {
 
     private final Actions actions;
-    private final Logger log = LogManager.getLogger(MyCartPage.class);
 
     // ─── Constructor ─────────────────────────────────────────
     public  MyCartPage(WebDriver driver){

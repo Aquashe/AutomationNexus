@@ -19,6 +19,9 @@ public class LoginPage extends BasePage {
     }
 
     // ─── Strings ─────────────────────────────────────────────
+    public String getStringLoginButtonLabel(){
+        return "Login";
+    }
     public String getStringIncorrectEmailOrPassword(){
         return "Incorrect email or password.";
     }
@@ -44,12 +47,15 @@ public class LoginPage extends BasePage {
 
     // ─── Page Methods ─────────────────────────────────────────
     public void enterUsername(String username) {
+        logInfo("Enter username: " + username);
         webUI.setText(getObjectTextFieldUsername(), username, GlobalVariable.WAIT_MEDIUM);
     }
     public void enterPassword(String password) {
+        logInfo("Enter password: " + password);
         webUI.setText(getObjectTextFieldPassword(), password, GlobalVariable.WAIT_MEDIUM);
     }
     public void clickLoginButton(){
+        logInfo("Click Button : "+getStringLoginButtonLabel());
         webUI.sendKeys(getObjectButtonLogin(), GlobalVariable.WAIT_MEDIUM, Keys.chord(Keys.ENTER));
     }
     public void verifyErrorMessage(String expectedErrorMessage) {

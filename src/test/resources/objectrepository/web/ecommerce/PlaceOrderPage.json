@@ -1,0 +1,15 @@
+{
+  "pageName": "PlaceOrderPage",
+  "objects": {
+    "ObjectButtonPlaceOrder": {
+      "android": "",
+      "ios": "",
+      "web": "//a[text()='Place Order ']"
+    },
+    "ObjectTextFieldSelectCountry": {
+      "android": "",
+      "ios": "",
+      "web": "//input[@placeholder='Select Country']"
+    }
+  }
+}

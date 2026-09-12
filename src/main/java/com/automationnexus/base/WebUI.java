@@ -51,6 +51,36 @@ public class WebUI {
         }
     }
 
+    public boolean waitForElementNotToBeDisplayed(By object, int timeoutInSeconds){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        return wait.until(ExpectedConditions.invisibilityOfElementLocated(object));
+    }
+
+    public boolean waitForElementNotToBeDisplayed(By object, int timeoutInSeconds, FailureHandling failureHandling){
+        try {
+            return waitForElementNotToBeDisplayed(object, timeoutInSeconds);
+        } catch (Exception e) {
+            BasePage.handleFailure(failureHandling,
+                    "Could find element: " + object.toString(), e);
+            return false;
+        }
+    }
+
+    public boolean waitForElementNotToBeDisplayed(WebElement object, int timeoutInSeconds){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        return wait.until(ExpectedConditions.invisibilityOf(object));
+    }
+
+    public boolean waitForElementNotToBeDisplayed(WebElement object, int timeoutInSeconds, FailureHandling failureHandling){
+        try {
+            return waitForElementNotToBeDisplayed(object, timeoutInSeconds);
+        } catch (Exception e) {
+            BasePage.handleFailure(failureHandling,
+                    "Could find element: " + object.toString(), e);
+            return false;
+        }
+    }
+
     public void click(By object, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(object));
@@ -116,6 +146,15 @@ public class WebUI {
         } catch (Exception e) {
             BasePage.handleFailure(failureHandling,
                     "Could not set keys for element: " + object.toString(), e);
+        }
+    }
+
+    public void delay(int seconds) {
+        try {
+            Thread.sleep(Duration.ofSeconds(seconds).toMillis());
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            log.warn("Delay interrupted.", e);
         }
     }
 

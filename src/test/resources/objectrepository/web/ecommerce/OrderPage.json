@@ -1,0 +1,35 @@
+{
+  "pageName": "OrderPage",
+  "objects": {
+    "ObjectButtonDelete": {
+      "android": "",
+      "ios": "",
+      "web": "//tbody//th[text()='${orderId}']/following-sibling::td/button[text()='Delete']"
+    },
+    "ObjectButtonGoBackToCart": {
+      "android": "",
+      "ios": "",
+      "web": "//button[normalize-space()='Go Back to Cart']"
+    },
+    "ObjectButtonGoBackToShop": {
+      "android": "",
+      "ios": "",
+      "web": "//button[normalize-space()='Go Back to Shop']"
+    },
+    "ObjectButtonView": {
+      "android": "",
+      "ios": "",
+      "web": "//tbody//th[text()='${orderId}']/following-sibling::td/button[text()='View']"
+    },
+    "ObjectContainerOrders": {
+      "android": "",
+      "ios": "",
+      "web": "//h1[normalize-space()='Your Orders']/following::table//tbody/tr"
+    },
+    "ObjectTitleYourOrders": {
+      "android": "",
+      "ios": "",
+      "web": "//h1[normalize-space()='Your Orders']"
+    }
+  }
+}

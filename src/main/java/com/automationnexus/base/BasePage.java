@@ -7,6 +7,8 @@ import com.automationnexus.drivers.DriverManager;
 import com.automationnexus.enums.FailureHandling;
 import com.automationnexus.maintenance.MaintenanceModeHandler;
 import com.automationnexus.maintenance.ObjectResolutionHandler;
+import com.automationnexus.utils.AnsiColors;
+import com.automationnexus.utils.ConsoleUtils;
 import com.automationnexus.utils.ObjectRepository;
 import com.automationnexus.utils.ObjectScaffold;
 import io.appium.java_client.AppiumDriver;
@@ -340,7 +342,7 @@ public abstract class BasePage {
         try {
             wait.until(ExpectedConditions.presenceOfElementLocated(locator));
             return locator;
-        } catch (org.openqa.selenium.TimeoutException e) {
+        } catch (TimeoutException e) {
             return MaintenanceModeHandler.handle(pageClass, objectName, locator, driver, wait, e);
         }
     }

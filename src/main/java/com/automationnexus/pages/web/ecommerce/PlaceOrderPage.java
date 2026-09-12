@@ -12,7 +12,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class PlaceOrderPage extends BasePage {
 
-    private final Logger log = LogManager.getLogger(PlaceOrderPage.class);
     private final Actions actions;
 
     // ─── Constructor ─────────────────────────────────────────

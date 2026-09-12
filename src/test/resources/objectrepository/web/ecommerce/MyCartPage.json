@@ -1,0 +1,20 @@
+{
+  "pageName": "MyCartPage",
+  "objects": {
+    "ObjectButtonCheckout": {
+      "android": "",
+      "ios": "",
+      "web": "//button[text()='Checkout']"
+    },
+    "ObjectContainerCartProduct": {
+      "android": "",
+      "ios": "",
+      "web": "//div[@class='infoWrap']"
+    },
+    "ObjectTitleMyCart": {
+      "android": "",
+      "ios": "",
+      "web": "//h1[text()='My Cart']"
+    }
+  }
+}

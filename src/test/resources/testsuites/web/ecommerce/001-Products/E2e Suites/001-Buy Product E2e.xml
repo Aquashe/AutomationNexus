@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Buy Product E2e Suite" verbose="1">
+
+    <parameter name="productName" value="ZARA COAT 3"/>
+    <parameter name="countryName" value="Brazil"/>
+    <test name="Buy Product">
+        <classes>
+            <class name="com.automationnexus.web.ecommerce.e2e.E2eProductTest">
+            <methods>
+                <include name="performE2eProductTest"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

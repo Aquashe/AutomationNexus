@@ -16,4 +16,5 @@ public class GlobalVariable {
     public static String URL_ECOMMERCE = "https://rahulshettyacademy.com/client/#/auth/login";
     public static String USERNAME_ECOMMERCE           = "thomasukutty6@gmail.com";
     public static String PASSWORD_ECOMMERCE           = "Plate@123456";
+    public static String ORDER_ID = "";
 }

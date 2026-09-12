@@ -2,6 +2,7 @@ package com.automationnexus.pages.web.ecommerce;
 
 import com.automationnexus.base.BasePage;
 import com.automationnexus.constants.GlobalVariable;
+import com.automationnexus.enums.FailureHandling;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -16,7 +17,6 @@ import java.util.List;
 public class ProductCatologuePage extends BasePage {
 
     private final Actions actions;
-    private final Logger log = LogManager.getLogger(ProductCatologuePage.class);
 
     // ─── Constructor ─────────────────────────────────────────
     public  ProductCatologuePage(WebDriver driver){
@@ -76,26 +76,25 @@ public class ProductCatologuePage extends BasePage {
                     "following-sibling::button[last()]"));
 
             actions.scrollToElement(buttonProductAddToCart).build().perform();
-            System.out.println("Adding Product : "+productName);
             buttonProductAddToCart.click();
         }
         webUI.waitForElementToBeDisplayed(getObjectTextPopup(), GlobalVariable.WAIT_MEDIUM);
-        webUI.waitForElementToBeDisplayed(getObjectIconLoading(), GlobalVariable.WAIT_MEDIUM);
+        webUI.waitForElementNotToBeDisplayed(getObjectIconLoading(), GlobalVariable.WAIT_MEDIUM);
     }
 
     /**
      *
+     * @param productNameToAdd Boolean
      * @param clickButtonCart Boolean
      * @param clickButtonOrders Boolean
-     * @param productNameToAdd Boolean
      */
-    public void performProductCatologuePage(boolean clickButtonCart, boolean clickButtonOrders, String productNameToAdd){
+    public void performProductCatologuePage(String productNameToAdd, boolean clickButtonCart, boolean clickButtonOrders){
+        if (productNameToAdd != null)
+            this.addProductToCart(productNameToAdd);
         if (clickButtonCart)
             this.clickButtonCart();
         if (clickButtonOrders)
             this.clickButtonOrders();
-        if (productNameToAdd != null)
-            this.addProductToCart(productNameToAdd);
     }
     // END : PAGE METHODS
 
